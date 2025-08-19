@@ -531,6 +531,9 @@ html {
   overflow: hidden
 }
 .sub-title__contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1358,6 +1361,9 @@ html {
   }
   .footer__parts .footer-addr {
     text-align: left
+  }
+  .sub-title__contact {
+    height: 8rem
   }
   .section-contact {
     padding-bottom: .625rem

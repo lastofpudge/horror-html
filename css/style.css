@@ -1363,9 +1363,6 @@ html {
   .footer__parts .footer-addr {
     text-align: left
   }
-  .sub-title__contact {
-    line-height: 1
-  }
   .section-contact {
     padding-bottom: .625rem
   }
@@ -1393,7 +1390,7 @@ html {
   }
 }
 @media (max-width:92.5em) {
-  .sub-title {
+  .sub-title:not(.sub-title__contact) {
     padding-top: 6.25rem
   }
 }

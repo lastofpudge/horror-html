@@ -333,8 +333,7 @@ html {
   width: 100%;
   height: 100%;
   max-width: 120rem;
-  background: url(../img/banner@big.webp) top center/auto 100% no-repeat;
-  background-attachment: fixed
+  background: url(../img/banner@big.webp) top center/auto 100% no-repeat
 }
 .promo:after {
   content: "";
@@ -1092,6 +1091,9 @@ html {
   }
 }
 @media (min-width:61.25em) {
+  .promo:before {
+    background-attachment: fixed
+  }
   .section-quest-main__bot a {
     font-size: 2.25rem
   }

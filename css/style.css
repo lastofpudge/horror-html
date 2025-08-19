@@ -1364,9 +1364,7 @@ html {
     text-align: left
   }
   .sub-title__contact {
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 8rem
+    line-height: 1
   }
   .section-contact {
     padding-bottom: .625rem
